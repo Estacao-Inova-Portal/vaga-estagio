@@ -36,4 +36,4 @@ Construa uma função em JS que apresente o seguinte comportamento:
 # 
 Show me the code!
 
-![voce](https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif)
+![voce](vc.gif)
