@@ -18,7 +18,7 @@ Só precisa saber (ou aprender agora) um pouco sobre as seguintes tecnologias:
 Faça um `Fork` desse repositório, crie uma `branch` com seu nome completo, complete os desafios e peça um `Pull Request` da sua `branch`.
 
 ## Desafio HTML
-Resolva os bugs do html da imagem.
+Resolva os bugs do html da imagem abaixo:
 ![html](desafio_html.png)
 
 
