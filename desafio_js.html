@@ -5,13 +5,23 @@
         <title>Company page</title>
     </head>
     <body>
-        <div>
+        <div class="image" id="image1">
             <img src="https://goo.gl/kjzfbE" alt="First">
-            <button class="remove">X</button>
+            <button class="remove" onclick="changeState('image1')" >X</button>
         </div>
-        <div>
+        <div class="image" id="image2">
             <img src="https://goo.gl/d2JncW" alt="Second">
-            <button class="remove">X</button>
+            <button class="remove" onclick="changeState('image2')">X</button>
         </div>
+        
+        <script type="text/javascript">
+            function changeState(image) {
+                const display = document.getElementById(image).style.display;
+                if(display == "none")
+                  document.getElementById(image).style.display = 'block';
+                else
+                 document.getElementById(image).style.display = 'none';
+            }
+        </script>
     </body>
 </html>
