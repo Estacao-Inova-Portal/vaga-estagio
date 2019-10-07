@@ -7,20 +7,19 @@
     <body>
         <div class="image" id="image1">
             <img src="https://goo.gl/kjzfbE" alt="First">
-            <button class="remove" onclick="changeState('image1')" >X</button>
+            <button class="remove" onclick="remove('image1')" >X</button>
         </div>
         <div class="image" id="image2">
             <img src="https://goo.gl/d2JncW" alt="Second">
-            <button class="remove" onclick="changeState('image2')">X</button>
+            <button class="remove" onclick="remove('image2')">X</button>
         </div>
         
         <script type="text/javascript">
-            function changeState(image) {
-                const display = document.getElementById(image).style.display;
-                if(display == "none")
-                  document.getElementById(image).style.display = 'block';
-                else
-                 document.getElementById(image).style.display = 'none';
+            function remove(image) {
+                const display = document.getElementById(image);
+                if(display){
+					document.getElementById(image).remove();
+				} 
             }
         </script>
     </body>
