@@ -1,0 +1,16 @@
+h1{
+    font-style: italic;
+    color: palevioletred;
+}
+
+
+a:focus{
+
+    outline: 1px dotted #f00;
+
+}
+
+a:active{
+
+    color: #f00;
+}
