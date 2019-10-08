@@ -5,13 +5,29 @@
         <title>Company page</title>
     </head>
     <body>
-        <div>
+        <div id="First">
             <img src="https://goo.gl/kjzfbE" alt="First">
-            <button class="remove">X</button>
+            <button class="remove" onclick="funcaodeletar(1)">X</button>
         </div>
-        <div>
+        <div id="Second">
             <img src="https://goo.gl/d2JncW" alt="Second">
-            <button class="remove">X</button>
+            <button class="remove" onclick="funcaodeletar(2)">X</button>
         </div>
+
+    <script type="text/javascript">
+
+        function funcaodeletar(num){
+
+            if(num==1){
+                var child = document.getElementById("First");
+            }else{
+                 var child = document.getElementById("Second");
+            }
+            child.parentNode.removeChild(child);
+
+        }
+
+    </script>
+
     </body>
 </html>
