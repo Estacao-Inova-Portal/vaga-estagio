@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html> 
+	<div id="minhaDiv">
+		<img src="https://goo.gl/kjzfbE" alt="First">
+		<button class="romove" onclick="Mudarestado('minhaDiv')">X</button>
+	</div>
+	<div class="image">
+		<img src="https://goo.gl/d2JncW" alt="Second">
+		<button class="romove">X</button>
+	</div>
+  
+	<script>
+		function Mudarestado(el) {
+			document.getElementById(el).style.display = "none";
+		}
+	</script>
+	
+	
+</html>
