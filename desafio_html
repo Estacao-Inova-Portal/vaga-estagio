@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+
+<html> 
+<head>
+	<meta charset="UTF-8"/>
+	<title>Company page</title>
+</head>
+	<body>
+		<p>Welcome! Here you can find the following things:</p>
+		<ol>
+			<em><li><a href="#logo"> Company's logo</a></li></em>
+		</ol>
+		<h1>Company's logo</h1>
+		<p> Company uses the following logos:</p>
+		<ul>
+			<li>New logo:</li><img source="new_logo.gif"/>
+			<li>Old logo:</li><img source="_logo.gif"/>
+		</ul>
+		<h1>list of employees</h1>
+		<thead>
+			<th>First name</th>
+			<th>last name</th>
+		</thead>
+		<table>
+			<tr>
+				<td>Mary</td>
+				<td>Williams</td>
+			</tr>
+			<tr>
+				<td>James</td>
+				<td>Smith</td>
+			</tr>
+		</table>	
+	</body>
+	
+</html>
