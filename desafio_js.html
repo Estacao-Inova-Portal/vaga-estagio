@@ -4,41 +4,38 @@
 <head>
     <meta charset="utf-8">
     <title>Company page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 
 <body>
 
     <script>
-        function desaparecer() {
 
-            //funcao para desaparecer a primeira div #visibilidade
-            document.getElementById("visibilidade").style.display = "none"
+       
 
-
-        }
-    </script>
-
-    <script>
-        function desaparecer1() {
-            //funcao para desaparecer a segunda div #visibilidade1
-            document.getElementById("visibilidade2").style.display = "none"
-
-
-        }
+    $(document).ready(function () {
+        $('#btn').click(() => {
+            $('.foto').attr('style','display: none');
+        });
+        $('#btn2').click(() => {
+            $('.foto2').attr('style','display: none');
+        })
+    })  
+            
     </script>
 
 
-    <div id="visibilidade">
-        <img src="https://goo.gl/kjzfbE" alt="First">
-        <button onclick="desaparecer()" class="remove">X</button>
+    <div class="foto">
+        <img src="https://goo.gl/kjzfbE" alt="First" >
+        <button  id="btn">X</button>
     </div>
 
 
-    <div id="visibilidade2">
+    <div class="foto2">
         <img src="https://goo.gl/d2JncW" alt="Second">
-        <button onclick="desaparecer1()" class="remove">X</button>
+        <button  id="btn2">X</button>
     </div>
-
 </body>
 
 </html>
