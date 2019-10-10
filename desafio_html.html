@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Company page</title>
-    </head>
-    <body>
-        <paragraph> Welcome! Here you can find the following things:</paragraph>
-        <ol>
-            <em> <li> <a href="#logo">Company's logo</a></li></em>
-            <li><a href="#employees">List of employees</a> </li>
-        </ol>
-        
-        
-        <h1>Company's logo
-        <paragraph>Company ueses the following logos:</paragraph>
-        <ul>
-            <li>New logo: </li> <img> source="https://goo.gl/kjzfbE"</img>
-            <li>Old logo: </li> <img> source="https://goo.gl/d2JncW"</img>
-        </ul>
+<head>
+    <meta charset="utf-8">
+    <title>Company page</title>
+</head>
+<body>
+    <paragraph> Welcome! Here you can find the following things:</paragraph>
+    <ol>
+        <em>
+            <li><a href="#logo">Company's logo</a></li>
+        </em>
+        <li><a href="#employees">List of employees</a></li>
+    </ol>
 
-        <h1>List of employees
+
+    <h1 id="logo">Company's logo</h1>
+    <paragraph>Company uses the following logos:</paragraph>
+    <ul>
+        <li>New logo:</li>
+        <img src="https://goo.gl/kjzfbE" alt="new logo">
+        <li>Old logo:</li>
+        <img src="https://goo.gl/d2JncW" alt="old logo">
+    </ul>
+
+    <h1 id="employees">List of employees</h1>
+    <table border="1">
         <thead>
-            <th>First name</th>
-            <th>Last name</th>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+            </tr>
         </thead>
-        <table>
+        <tbody>
             <tr>
                 <td>Mary</td>
                 <td>Williams</td>
@@ -33,6 +40,7 @@
                 <td>James</td>
                 <td>Smith</td>
             </tr>
-        </table>
-    </body>
+        </tbody>
+    </table>
+</body>
 </html>
