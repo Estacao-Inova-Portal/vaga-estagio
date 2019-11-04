@@ -14,4 +14,15 @@
             <button class="remove">X</button>
         </div>
     </body>
+    <script>
+      // Seleciona apenas botões que estejam dentro de div e que tenham
+      // a classe 'remove', como foi descrito no desafio.
+      const buttons = document.querySelectorAll('div > button.remove');
+
+      buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          button.parentElement.remove();
+        });
+      });
+    </script>
 </html>
