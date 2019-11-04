@@ -5,26 +5,28 @@
         <title>Company page</title>
     </head>
     <body>
-        <paragraph> Welcome! Here you can find the following things:</paragraph>
+        <p> Welcome! Here you can find the following things:</p>
         <ol>
-            <em> <li> <a href="#logo">Company's logo</a></li></em>
-            <li><a href="#employees">List of employees</a> </li>
+            <li><em><a href="#logo">Company's logo</a></em></li>
+            <li><a href="#employees">List of employees</a></li>
         </ol>
         
-        
-        <h1>Company's logo
-        <paragraph>Company ueses the following logos:</paragraph>
+        <h1 id="logo">Company's logo</h1>
+        <p>Company uses the following logos:</p>
         <ul>
-            <li>New logo: </li> <img> source="https://goo.gl/kjzfbE"</img>
-            <li>Old logo: </li> <img> source="https://goo.gl/d2JncW"</img>
+            <li>New logo:  <img src="https://goo.gl/kjzfbE"></li>
+            <li>Old logo:  <img src="https://goo.gl/d2JncW"></li>
         </ul>
 
-        <h1>List of employees
-        <thead>
-            <th>First name</th>
-            <th>Last name</th>
-        </thead>
+        <h1 id="employees">List of employees</h1>
         <table>
+          <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+            </tr>
+          </thead>
+          <tbody>
             <tr>
                 <td>Mary</td>
                 <td>Williams</td>
@@ -33,6 +35,7 @@
                 <td>James</td>
                 <td>Smith</td>
             </tr>
+          </tbody>
         </table>
     </body>
 </html>
