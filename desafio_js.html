@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"/>
         <title>Company page</title>
+        <script>
+        function remove(elementID){
+           document.getElementById(elementID).remove();
+        }
+        </script>
     </head>
     <body>
-        <div>
+        <div id="first logo">
             <img src="https://goo.gl/kjzfbE" alt="First">
-            <button class="remove">X</button>
-        </div>
-        <div>
+            <button class="remove" onclick="remove('first logo')">X</button>
+        </div>  
+        <div id="second logo">
             <img src="https://goo.gl/d2JncW" alt="Second">
-            <button class="remove">X</button>
+            <button class="remove" onclick="remove('second logo')">X</button>
         </div>
     </body>
 </html>
