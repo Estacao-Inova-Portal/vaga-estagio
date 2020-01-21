@@ -14,4 +14,14 @@
             <button class="remove">X</button>
         </div>
     </body>
+    <script>
+      
+      const botao = document.querySelectorAll('div > button.remove');
+
+      botao.forEach(button => {
+        button.addEventListener('click', () => {
+          button.parentElement.remove();
+        });
+      });
+    </script>
 </html>

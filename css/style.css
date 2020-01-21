@@ -1,0 +1,95 @@
+*{
+	box-sizing: border-box;
+ }
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+header{
+	background-color: #333;
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 1em;
+}
+
+header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+header h2{
+	font-size: 20px;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}   
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+.menu{
+	text-align: center;
+	padding: 10px;
+	margin: 30px;
+	
+}
+
+.menu a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 22px;
+	color: black;
+}
+
+.menu a:hover{
+	font-size: 25px;
+	transition: 0.5s;
+}
+
+.title{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.logo{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	padding: 10px;
+	margin: 12px;
+}
+
+.logo li{
+	font-size: 18px;
+	padding: 40px 5px 5px 5px;
+}
