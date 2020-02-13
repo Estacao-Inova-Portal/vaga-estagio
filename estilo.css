@@ -1,0 +1,42 @@
+*{
+
+    border: 0px;
+}
+
+body{
+
+
+    background-color: rgb(185, 182, 182);
+}
+
+
+#titulo{
+    padding: 10px;
+    margin: 0px;
+    background-color: cornflowerblue;
+    border:2px solid black;
+}
+
+#logo{
+
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(150, 158, 173);
+    border:2px solid black;
+
+}
+#paragraph{ 
+
+padding:  0px;
+margin: 20px;
+font-size: 20px;
+}
+
+
+#employees{
+
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(150, 158, 173);
+    border:2px solid black;
+}
