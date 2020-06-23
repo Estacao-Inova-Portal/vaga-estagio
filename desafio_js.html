@@ -2,16 +2,28 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Company page</title>
+        <title>Estação Inova Portal - Unimed do Brasil</title>
     </head>
     <body>
-        <div>
-            <img src="https://goo.gl/kjzfbE" alt="First">
-            <button class="remove">X</button>
-        </div>
-        <div>
-            <img src="https://goo.gl/d2JncW" alt="Second">
-            <button class="remove">X</button>
+        <div id="buttonsContainer">
+            <div data-image="First">
+                <img src="https://goo.gl/kjzfbE" alt="First">
+                <button class="remove" data-trash="First">X</button>
+            </div>
+            <div data-image="Second">
+                <img src="https://goo.gl/d2JncW" alt="Second">
+                <button class="remove" data-trash="Second">X</button>
+            </div>
         </div>
     </body>
+
+    <script>
+        const buttonsContainer = document.getElementById('buttonsContainer');
+        buttonsContainer.addEventListener('click', (event) => {
+            const { target } = event;
+            if(target.dataset.trash) {
+                document.querySelector(`[data-image=${target.dataset.trash}]`).remove()
+            }
+        })
+    </script>
 </html>
