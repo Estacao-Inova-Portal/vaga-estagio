@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Company page</title>
-    </head>
-    <body>
-        <div>
-            <img src="https://goo.gl/kjzfbE" alt="First">
-            <button class="remove">X</button>
-        </div>
-        <div>
-            <img src="https://goo.gl/d2JncW" alt="Second">
-            <button class="remove">X</button>
-        </div>
-    </body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<head>
+    <script>    
+        function fechar(containerId) {
+        container = document.getElementById(containerId);
+        container.remove();
+      }
+    </script>
+</head>
+<body>
+    <div id="container1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Unimed_institucional.png"/>
+        <button onClick="fechar('container1')">X</button>
+    </div>
+    <div id="container2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKxZqbA3PA8btFVG4xL0c6soZM_mNMFN2Q_bFoW3TTZku2TV0hiwX6eHe6NnQRSiJwZM&usqp=CAU"/>
+        <button onClick="fechar('container2')">X</button>
+    </div>
+</body>
 </html>
