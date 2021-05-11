@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Company page</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
         <div class="image">
@@ -14,6 +15,17 @@
             <img src="https://goo.gl/d2JncW" alt="Second">
             <button class="remove">X</button>
         </div>
+      
+        <script>
+
+        $(function () {
+            console.log("Chamou click");
+            $(".remove").click(function() {
+                $(this).parent().remove();
+            });
+        })
+           
+        </script>
     </body>
 </html>
 
