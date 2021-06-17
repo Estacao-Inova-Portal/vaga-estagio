@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Company page</title>
-    </head>
-    <body>
-        <div>
-            <img src="https://goo.gl/kjzfbE" alt="First">
-            <button class="remove">X</button>
-        </div>
-        <div>
-            <img src="https://goo.gl/d2JncW" alt="Second">
-            <button class="remove">X</button>
-        </div>
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Company page</title>
+</head>
+
+<body>
+  <div id="hide-number-one">
+    <img src="number-one.jpg" alt="First">
+    <button onclick="hideImage('hide-number-one')" class="remove">X</button>
+  </div>
+
+  <div id="hide-number-two">
+    <img src="number-two.jpg" alt="Second">
+    <button onclick="hideImage('hide-number-two')" class="remove">X</button>
+  </div>
+
+  <script type="text/javascript" src="data.js"></script>
+</body>
 </html>

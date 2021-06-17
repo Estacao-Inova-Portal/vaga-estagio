@@ -1,0 +1,63 @@
+body{
+	background-color:#5aa9e6;
+	color:#f9f9f9;
+	margin:none;
+	border:0px;	
+	font-family: arial,arial black;
+	}
+
+img.new-logo{
+	cursor: zoom-in;
+	display: inline-flex;
+	width: 90px;
+	height:90px;
+	margin: 15px;
+	border:30px;
+	position: relative;
+	left:-14px;
+	}
+
+	img.old-logo{
+	cursor: zoom-in;
+	display: inline-flex;
+	width: 90px;
+	height:90px;
+	margin:15px;
+	border:30px;
+	position: relative;
+	left: -8px;
+	}
+	
+.logos{
+	list-style:none;
+	display:inline-flex;
+	position: relative;
+	top:-113px;
+	left:80px;
+	background-color: #7fc8f8;
+	padding: 2px;
+	border-radius:2px;
+	}
+
+	a{
+	text-decoration:none;
+	color:#f9f9f9;
+	background-color:#7fc8f8;
+	padding: 2px;
+	border-radius:4px;
+	font-size:15px;
+	}
+
+	.btn{
+		cursor: pointer;
+		background-color:#5aa9e6;
+		color:red;
+		text-transform: uppercase;
+		border-style:none;
+		position: relative;
+		top:-15px;
+		right: 20px; 
+	}
+
+
+
